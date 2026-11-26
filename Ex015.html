@@ -1,0 +1,34 @@
+<p>G - Group</p>
+<svg width="300" height="150" style="border:1px solid black">
+  <g fill="tomato" stroke="black" stroke-width="3">
+    <rect x="20" y="30" width="60" height="60" />
+    <circle cx="140" cy="60" r="30"  fill="gold"/>
+    <polygon points="200,90 240,30 280,90" />
+  </g>
+</svg>
+
+<p>Defs e Use</p>
+<svg width="300" height="150" style="border:1px solid black">
+  <defs>
+    <circle id="bolinha" r="15" />
+  </defs>
+
+  <use href="#bolinha" x="50"  y="75" fill="red" />
+  <use href="#bolinha" x="110" y="75" fill="green" />
+  <use href="#bolinha" x="170" y="75" fill="blue" />
+</svg>
+
+<p>Reaproveitar grupo</p>
+<svg width="300" height="150" style="border:1px solid black">
+  <defs>
+    <g id="arvore">
+      <rect x="-5" y="0" width="10" height="25" fill="saddlebrown" />
+      <circle cx="0" cy="-5" r="22" fill="forestgreen" />
+    </g>
+  </defs>
+
+  <rect x="0" y="85" width="300" height="85" fill="#7ec850" />
+  <use href="#arvore" x="60"  y="70" />
+  <use href="#arvore" x="150" y="85" />
+  <use href="#arvore" x="240" y="65" />
+</svg>

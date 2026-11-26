@@ -1,0 +1,52 @@
+<p>Texto</p>
+<svg width="300" height="150" style="border:1px solid black">
+  <text x="20" y="80" font-size="40" fill="black">Olá, SVG!</text>
+</svg>
+
+<p>Cor e contorno</p>
+<svg width="300" height="150" style="border:1px solid black">
+  <text x="20" y="50" font-size="28" font-family="Georgia, serif" fill="tomato">Texto serifado</text>
+  <text x="20" y="90" font-size="28" font-family="Arial, sans-serif" font-weight="bold" fill="royalblue">Texto em negrito</text>
+  <text x="20" y="130" font-size="40" font-weight="bold" fill="yellow" stroke="black" stroke-width="1">Com contorno</text>
+</svg>
+
+<p>Alinhamento horizontal</p>
+<svg width="300" height="150" style="border:1px solid black">
+  <line x1="150" y1="0" x2="150" y2="150" stroke="royalblue" stroke-width="1" />
+  <text x="150" y="40"  font-size="32" text-anchor="start">início</text>
+  <text x="150" y="80"  font-size="32" text-anchor="middle">meio</text>
+  <text x="150" y="120" font-size="32" text-anchor="end">fim</text>
+</svg>
+
+<p>Alinhamento vertical</p>
+<svg width="300" height="150" style="border:1px solid black">
+  <line x1="0" y1="75" x2="300" y2="75" stroke="royalblue" stroke-width="1" />
+  <text x="20"  y="75" font-size="24" dominant-baseline="auto">auto</text>
+  <text x="100" y="75" font-size="24" dominant-baseline="middle">middle</text>
+  <text x="200" y="75" font-size="24" dominant-baseline="hanging">hanging</text>
+</svg>
+
+<p>Linhas e Cores</p>
+<svg width="300" height="150" style="border:1px solid black">
+  <text x="20" y="50" font-size="24">
+    Isto é <tspan fill="red" font-weight="bold">vermelho</tspan> e <tspan fill="blue">azul</tspan>.
+  </text>
+  <text x="20" y="100" font-size="20">
+    <tspan x="20" dy="0">Linha 1</tspan>
+    <tspan x="20" dy="38">Linha 2</tspan>
+  </text>
+</svg>
+
+<p>Placa de rua</p>
+<svg width="300" height="150" style="border:1px solid black; background:#ddd">
+  <rect x="7" y="32" width="286" height="86" rx="8" fill="none" stroke="black" stroke-width="1" />
+  <rect x="10" y="35" width="280" height="80" rx="8" fill="royalblue" stroke="white" stroke-width="6" />
+  <rect x="13" y="38" width="274" height="74" rx="8" fill="none" stroke="darkblue" stroke-width="1" />
+  <text x="150" y="75" font-size="28" font-family="Arial, sans-serif" font-weight="bold" fill="white" text-anchor="middle" dominant-baseline="middle">Rua Carangola</text>
+</svg>
+
+<p>Resumo</p>
+<svg width="300" height="150" style="border:1px solid black">
+  <rect x="75" y="45" width="150" height="60" rx="30" fill="seagreen" stroke="darkgreen" stroke-width="3" />
+  <text x="150" y="75" font-size="24" font-family="Arial, sans-serif" font-weight="bold" fill="white" text-anchor="middle" dominant-baseline="middle">Clique</text>
+</svg>
